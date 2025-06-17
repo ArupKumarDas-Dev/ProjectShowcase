@@ -112,7 +112,7 @@
     flex-direction: row;
     gap: 2rem;
     max-width: 1000px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.467);
     border-radius: 20px;
     padding: 2rem;
     backdrop-filter: blur(20px);
@@ -176,7 +176,8 @@
   }
   
   .project-card {
-    background: var(--glass-bg);
+    /* background: var(--glass-bg); */
+    background: rgba(255, 255, 255, 0.467);
     border: 1px solid var(--border-glass);
     border-radius: 20px;
     padding: 1.5rem;
@@ -197,7 +198,7 @@
     color: var(--accent);
     margin-bottom: 1rem;
     
-    text-shadow: 1px 4px rgba(93, 93, 93, 0.732);
+    text-shadow: 0.5px 1.5px rgba(84, 84, 84, 0.704);
   }
   
   .project-card img {
@@ -243,7 +244,7 @@
   }
   
   .project-btn:hover {
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     box-shadow: 0 10px 20px rgba(255, 229, 59, 0.6);
     text-decoration: none;
   }
