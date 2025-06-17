@@ -174,8 +174,6 @@
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     justify-content: center;
-    /* border: 5px solid blue; */
-    /* background-color: rgba(0, 0, 0, 0.293); */
     border-radius: 20px;
   }
   
