@@ -1,107 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="bootstrap.css" />
-  <body>
-    <div id="preloader">
-      <div class="loader"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Explore Axion's UI/UX and Web Design Projects — Stunning designs, real-world case studies, and creative development." />
+  <meta name="keywords"
+    content="UI/UX portfolio, web design, front-end development, projects, showcase, Figma, HTML, CSS, JavaScript, React" />
+  <meta name="author" content="Arup" />
+
+  <meta property="og:title" content="Arup | UI/UX & Web Projects Showcase" />
+  <meta property="og:description"
+    content="Explore creative UI/UX and web development projects crafted by Arup. Design meets development." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://project-showcae.vercel.app/" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+
+
+
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="bootstrap.css" />
+
+<body>
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <div class="video-background">
+    <video autoplay muted loop>
+      <source src="Assets/vid1com.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <nav class="navbar">
+    <div class="logo"><img src="Assets/logo.png" alt="#" width="100px" /></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <!-- <li><a href="#services">Services</a></li> -->
+      <li><a href="https://my-portfolio-five-theta-31.vercel.app/">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
     </div>
-    
-    <div class="video-background">
-      <video autoplay muted loop>
-        <source src="Assets/vid1com.mp4" type="video/mp4" />
-      </video>
+  </nav>
+
+  <section id="about">
+    <div class="about-container">
+      <div class="profile-picture">
+        <img src="Assets/profile-pic.png" alt="Profile Picture" />
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm a passionate web developer with a love for creating
+          beautiful and functional websites. I have experience in HTML, CSS,
+          JavaScript, and various frameworks. My goal is to build
+          user-friendly applications that provide seamless experiences.
+        </p>
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Responsive Design</li>
+        </ul>
+        <h3>Interests</h3>
+        <p>
+          In my free time, I enjoy gaming, photography, and exploring new
+          technologies.
+        </p>
+      </div>
     </div>
-    <nav class="navbar">
-      <div class="logo"><img src="Assets/logo.png" alt="#" width="100px"/></div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <!-- <li><a href="#services">Services</a></li> -->
-        <li><a href="https://my-portfolio-five-theta-31.vercel.app/">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="hamburger" id="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+  </section>
+  <section class="showcase-section">
+    <h1 class="title">My Projects</h1>
+    <div class="projects-container">
+      <div class="project-card">
+        <h2>Soft Sell Website</h2>
+        <img src="Assets/project1.png" alt="" srcset="" width="300px">
+        <p>A fully responsive website for Credex.co with React</p>
+        <a href="https://credex-project-tau.vercel.app/" class="project-btn">View Project</a>
       </div>
-    </nav>
-
-    <section id="about">
-      <div class="about-container">
-        <div class="profile-picture">
-          <img src="Assets/profile-pic.png" alt="Profile Picture" />
-        </div>
-        <div class="about-content">
-          <h2>About Me</h2>
-          <p>
-            Hello! I'm a passionate web developer with a love for creating
-            beautiful and functional websites. I have experience in HTML, CSS,
-            JavaScript, and various frameworks. My goal is to build
-            user-friendly applications that provide seamless experiences.
-          </p>
-          <h3>Skills</h3>
-          <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Responsive Design</li>
-          </ul>
-          <h3>Interests</h3>
-          <p>
-            In my free time, I enjoy gaming, photography, and exploring new
-            technologies.
-          </p>
-        </div>
+      <div class="project-card">
+        <h2>Car Rental website</h2>
+        <img src="Assets/project2.png" alt="" width="300px">
+        <p>An elegant car rental website with a modern UI.</p>
+        <a href="https://car-rental-project-sepia.vercel.app/" class="project-btn">View Project</a>
       </div>
-    </section>
-    <section class="showcase-section">
-      <h1 class="title">My Projects</h1>
-      <div class="projects-container">
-        <div class="project-card">
-          <h2>Soft Sell Website</h2>
-          <img src="Assets/project1.png" alt="" srcset="" width="300px">
-          <p>A fully responsive website for Credex.co with React</p>
-          <a href="https://credex-project-tau.vercel.app/" class="project-btn">View Project</a>
-        </div>
-        <div class="project-card">
-          <h2>Car Rental website</h2>
-          <img src="Assets/project2.png" alt="" width="300px">
-          <p>An elegant car rental website with a modern UI.</p>
-          <a href="https://car-rental-project-sepia.vercel.app/" class="project-btn">View Project</a>
-        </div>
-        <div class="project-card">
-          <h2>Portfolio</h2>
-          <img src="Assets/project3.png" alt="" width="300px">
-          <p>A 3d video based portfolio with 3d carousel.</p>
-          <a href="https://my-portfolio-five-theta-31.vercel.app/" class="project-btn">View Project</a>
-        </div>
-        <div class="project-card">
-          <h2>Music Player</h2>
-          <img src="Assets/project4.png" alt="" width="300px">
-          <p>A simple music player using HTML, CSS and JavaScript</p>
-          <a href="https://music-player-two-orpin-75.vercel.app/" class="project-btn">View Project</a>
-        </div>
-        <div class="project-card">
-          <h2>Netflix Clone</h2>
-          <img src="Assets/project5.png" alt="" width="300px">
-          <p>This is a clone of netflix featuring HTML, CSS and JavaScript.</p>
-          <a href="https://movie-website-net-flix-clone.vercel.app/" class="project-btn">View Project</a>
-        </div>
+      <div class="project-card">
+        <h2>Portfolio</h2>
+        <img src="Assets/project3.png" alt="" width="300px">
+        <p>A 3d video based portfolio with 3d carousel.</p>
+        <a href="https://my-portfolio-five-theta-31.vercel.app/" class="project-btn">View Project</a>
       </div>
-    </section>
+      <div class="project-card">
+        <h2>Music Player</h2>
+        <img src="Assets/project4.png" alt="" width="300px">
+        <p>A simple music player using HTML, CSS and JavaScript</p>
+        <a href="https://music-player-two-orpin-75.vercel.app/" class="project-btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h2>Netflix Clone</h2>
+        <img src="Assets/project5.png" alt="" width="300px">
+        <p>This is a clone of netflix featuring HTML, CSS and JavaScript.</p>
+        <a href="https://movie-website-net-flix-clone.vercel.app/" class="project-btn">View Project</a>
+      </div>
+    </div>
+  </section>
 
 
-    <footer>
-      <p>&copy; 2025 Made with &#128147; by Arup</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Made with &#128147; by Arup</p>
+  </footer>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
+
 </html>
