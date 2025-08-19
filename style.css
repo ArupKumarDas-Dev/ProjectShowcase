@@ -248,6 +248,97 @@
     box-shadow: 0 10px 20px rgba(255, 229, 59, 0.6);
     text-decoration: none;
   }
+
+
+  /* ----------------------Conatact------------------ */
+  #contact{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgba(255, 255, 255, 0.467); */
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+  }
+.sub-title1 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.contact-left {
+    flex-basis: 50%;
+
+}
+
+.contact-right {
+    flex-basis: 50%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.contact-left p i {
+    color: #ffc400;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 50px;
+    color: #ffffff;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: linear-gradient(135deg, var(--accent), #fff700);
+    transform: translateY(-5px);
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
   
   
   /* FOOTER */
@@ -287,6 +378,10 @@
     .nav-links li {
       margin: 20px 0;
       text-align: center;
+    }
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
     }
   }
   
